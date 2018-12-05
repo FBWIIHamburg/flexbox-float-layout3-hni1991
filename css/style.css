@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.up{
+    display: flex;
+    flex: 100%;    
+    height: 20vh;
+    background-color: lightgreen;
+}
+.counter{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+}
+.left{
+    display: flex;
+    /* flex-direction: row; */
+    flex: 3;
+    background-color: wheat;
+}
+.right{
+    flex: 2;    
+    background-color: lightsalmon;
+}
+.mittle{
+    display: flex;
+    flex: 2;
+    background-color: lightgrey;
+}
+.down{
+    width: 100%;
+    height: 20vh;
+    background-color: lightgreen;
+}
